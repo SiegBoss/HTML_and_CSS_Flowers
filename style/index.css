@@ -124,6 +124,7 @@ body{
 @media screen and (max-width: 708px){
   .main_container {
     width: 100%;
+    margin: 25% auto;
   }
   
   .text_hi{
@@ -136,6 +137,7 @@ body{
 
   .main_container {
     width: 100%;
+    margin: 50% auto;
   }
   
   .text_hi{
