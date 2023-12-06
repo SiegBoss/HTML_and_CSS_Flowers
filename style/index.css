@@ -1,25 +1,29 @@
-/*Estilos generales*/
+/*Estilos generales de la página | General page styles*/
 body{
   background-color: #051a26;
 }
 
-/*Estilos del contenedor principal*/
+
+/*Estilos del contenedor principal | Main container styles*/
 .main_container {
   position: relative;
   text-align: center;
   height: 50%;
   width: 50%;
-  margin: 10% auto;
+  margin: 5% auto;
 }
 
-/*Estilos del Texto HOLA*/
+
+/*Estilos del Texto HOLA | Styles of the text HOLA*/
 .text_hi{
   font-size: 6rem;
   font-weight: 900;
 }
+
 .text_hi > span{
   animation: glow 2.5s ease-in-out infinite;
 }
+
 @keyframes glow{
   0%, 100%{
     color: #fff;
@@ -30,26 +34,34 @@ body{
     text-shadow: none;
   }
 }
-.text_hi > span:nth-child(2){
+
+.text_hi > .text_h{
   animation-delay: .2s ;
 }
-.text_hi > span:nth-child(3){
+
+.text_hi > .text_o{
   animation-delay: .4s ;
 }
-.text_hi > span:nth-child(4){
+
+.text_hi > .text_l{
   animation-delay: .6s;
 }
-.text_hi > span:nth-child(5){
+
+.text_hi > .text_a{
   animation-delay: .8s;
 }
 
-/*Estilos del Texto Bienvenido*/
+
+/*Estilos del Texto | Styles of the text*/
 .text{
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 700;
+  text-transform: uppercase;
   color: #c8f1eb;
 }
 
+
+/*Estilos del Botón | Styles of the button*/
 .button {
   position: relative;
   width: 120px;
@@ -104,4 +116,33 @@ body{
 
 .button:active::before {
   scale: 0.7;
+}
+
+
+/*Responsibo | Responsive*/
+
+@media screen and (max-width: 708px){
+  .main_container {
+    width: 100%;
+  }
+  
+  .text_hi{
+    font-size: 5rem;
+  }
+  
+}
+
+@media screen and (max-width: 474px){
+
+  .main_container {
+    width: 100%;
+  }
+  
+  .text_hi{
+    font-size: 3rem;
+  }
+
+  .text{
+    font-size: 1rem;
+  }
 }
