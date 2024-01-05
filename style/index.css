@@ -1,11 +1,12 @@
 /*Estilos generales de la página | General page styles*/
 body {
+    font-family: 'Montserrat', sans-serif;
     background-color: #051a26;
 }
 
 
 /*Estilos del contenedor principal | Main container styles*/
-.main_container {
+.main-container {
     position: relative;
     text-align: center;
     height: 50%;
@@ -15,12 +16,12 @@ body {
 
 
 /*Estilos del Texto HOLA | Styles of the text HOLA*/
-.text_hi {
+.text-hi {
     font-size: 6rem;
-    font-weight: 900;
+    font-weight: bold;
 }
 
-.text_hi>span {
+.text-hi > span {
     animation: glow 2.5s ease-in-out infinite;
 }
 
@@ -39,19 +40,19 @@ body {
     }
 }
 
-.text_hi>.text_h {
+.text-hi > .text-h {
     animation-delay: .2s;
 }
 
-.text_hi>.text_o {
+.text-hi > .text-o {
     animation-delay: .4s;
 }
 
-.text_hi>.text_l {
+.text-hi > .text-l {
     animation-delay: .6s;
 }
 
-.text_hi>.text_a {
+.text-hi > .text-a {
     animation-delay: .8s;
 }
 
@@ -126,12 +127,12 @@ body {
 /*Responsibo | Responsive*/
 
 @media screen and (max-width: 708px) {
-    .main_container {
+    .main-container {
         width: 100%;
         margin: 25% auto;
     }
 
-    .text_hi {
+    .text-hi {
         font-size: 5rem;
     }
 
@@ -139,12 +140,12 @@ body {
 
 @media screen and (max-width: 474px) {
 
-    .main_container {
+    .main-container {
         width: 100%;
         margin: 50% auto;
     }
 
-    .text_hi {
+    .text-hi {
         font-size: 3rem;
     }
 
