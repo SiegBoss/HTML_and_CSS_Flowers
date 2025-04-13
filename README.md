@@ -1,47 +1,59 @@
-# Flores con HTML y CSS
-La página principal presenta una serie de flores creadas con HTML y CSS.
+# 🌸 Flores con HTML y CSS
 
-La pagina donde estan las flores la agarre de un archivo ya existente y las modifique a mi gusto, pero no encontre al usuario original que las creo para darle sus respectivos creditos
+Este proyecto muestra una serie de **flores animadas** creadas únicamente con **HTML** y **CSS**.  
+La página principal presenta un enlace a una galería visual de flores estilizadas.
 
-## Estructura del Proyecto
-El proyecto consta de los siguientes archivos y carpetas:
+> ⚠️ Nota: La página de flores fue adaptada a partir de un archivo existente. Aunque realicé modificaciones personales, no pude encontrar al autor original para darle el crédito correspondiente.
 
-- `index.html`: Este es el archivo principal que contiene la estructura HTML de la página principal.
-- `index.css`: Este archivo contiene todos los estilos CSS utilizados para dar formato y estilo al index.html
-- `flowers.html`: Este archivo contiene la estructura HTML de la página de flores.
-- `flowers.css`: Este archivo contiene todos los estilos CSS utilizados para dar formato y estilo al flowers.html
-  
-## Herramientas de Desarrollo
-- HTML
+## 📁 Estructura del Proyecto
+
+El proyecto incluye los siguientes archivos y carpetas:
+
+- `index.html`: Página principal del sitio.
+- `index.css`: Estilos CSS para `index.html`.
+- `flowers.html`: Contiene la estructura HTML de la galería de flores.
+- `flowers.css`: Estilos CSS específicos para `flowers.html`.
+
+## 🛠️ Tecnologías Utilizadas
+
+- HTML  
 - CSS
 
-## Demostración
-https://siegboss.github.io/HTML_and_CSS_Flowers/
+## 🔍 Demostración
 
-## Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
+Puedes ver el proyecto en funcionamiento aquí: https://siegboss.github.io/HTML_and_CSS_Flowers/
 
-------------------------------
+## 📄 Licencia
 
-# Flowers with HTML and CSS
-The main page presents a series of flowers created with HTML and CSS.
+Este proyecto está bajo la licencia MIT. Consulta el archivo [`LICENSE`] para más información.
 
-I took the page where the flowers are from an existing file and modified them to my liking, but I couldn't find the original user who created them to give them their respective credits.
+---
 
-## Project Structure
-The project consists of the following files and folders:
+# 🌸 Flowers with HTML and CSS
 
-- `index.html`: This is the main file that contains the HTML structure of the main page.
-- `index.css`: This file contains all the CSS styles used to format and style the index.html
-- `flowers.html`: This file contains the HTML structure of the flowers page.
-- `flowers.css`: This file contains all the CSS styles used to format and style the flowers.html
+This project displays a collection of **animated flowers** created purely with **HTML** and **CSS**.  
+The main page links to a visual gallery of stylized flower designs.
 
-## Development Tools
-- HTML
+> ⚠️ Note: The flowers page was adapted from an existing file. Although I made personal modifications, I couldn’t find the original author to give proper credit.
+
+## 📁 Project Structure
+
+The project includes the following files and folders:
+
+- `index.html`: Main landing page.
+- `index.css`: CSS styles for `index.html`.
+- `flowers.html`: HTML structure of the flower gallery.
+- `flowers.css`: CSS styles specific to `flowers.html`.
+
+## 🛠️ Development Tools
+
+- HTML  
 - CSS
-  
-## Demonstration
-https://siegboss.github.io/HTML_and_CSS_Flowers/
 
-## License
-This project is under the MIT license. Check the LICENSE file for more details.
+## 🔍 Demo
+
+Check out the live demo here: https://siegboss.github.io/HTML_and_CSS_Flowers/
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [`LICENSE`] file for more details.
